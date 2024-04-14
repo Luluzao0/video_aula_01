@@ -7,10 +7,10 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const client = new Client({
-    user: '',
-    host: '',
-    database: '',
-    password: '',
+    user: 'postgres',
+    host: 'localhost',
+    database: 'video_aula_01',
+    password: 'luluzao',
     port: 5432,
 });
 client.connect();
